@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="container"> 
+    
+
+<div class="highscore">
+     <a href="Highscore.html">Highscore</a>
+</div>
+
+<div class="time">
+    Time <Span id="time-left"> </Span>
+</div>
+
+<main>
+
+    <!-- This is the Quiz Starting page -->
+
+    <div id="s-page">
+        <h1>Coding Quiz Challenge</h1>
+    
+        <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers
+            will penalize your score/time by ten seconds</p>
+    
+        <button id="start-quiz" onclick="setTime()">Start Quiz</button>
+    </div>
+
+
+    <!-- This is the question page -->
+
+<div id="q-page" class="hide">
+    <h2 id="q-title"></h2>
+    <div id="q-choice">
+        <button id="q1" class="qbutton" value="userChoice"></button>
+        <button id="q2" class="qbutton" value="userChoice"></button>
+        <button id="q3" class="qbutton" value="userChoice"></button>
+        <button id="q4" class="qbutton" value="userChoice"></button>
+    </div>
+    <div id="result"></div>
+</div>
+
+    
+
+
+    <!-- This is the Final submision page -->
+
+<div id="f-page" class="hide">
+    <h2>All done!</h2>
+    <p>Your final score is <span id="final-score"></span>.</p>
+    <p>
+        Enter initials: <input type="text" id="initials" max="3" />
+        <button id="submit" onclick="saveHighscore()">Submit</button>
+    </p>
+</div>
+
+
+</main>
+
+
+</div> 
+
+<script src="questionList.js"></script>
+<script src="script.js"></script>
+<!-- <script src="hightscore.js"></script> -->
+</body>
+</html>

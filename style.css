@@ -1,0 +1,126 @@
+
+.hide {
+    display: none;
+}
+
+.feedback{
+    border-top: 5px solid gray;
+    color:grey;
+    color: gray;
+    font-size: 50px;
+}
+
+h2{
+    color: black
+}
+
+.qbutton{
+    color: rgb(155, 105, 155);
+    display: block;
+    margin: 20px;
+    background-color: white;
+    width: 200px;
+    height: 30px;
+}
+
+.hideResult{
+    display: none;
+}
+
+.highscore{
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  font-size: 30px;
+}
+
+.time {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 30px;
+  }
+
+  main{
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 100px;
+      
+  }
+
+  #s-page{
+    text-align: center;
+  }
+
+  #q-page{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
+
+  button:hover {
+    background-color: rgba(128, 0, 128, 0.52);
+  }
+
+  button:focus {
+      outline:none;
+    }
+
+button{
+    border-radius: 4px;
+    min-width: 100px;
+    min-height: 30px;
+    background-color:purple;
+    color: white;
+    transition: background-color 0.1s;
+    font-size: 100%;
+    outline: none;
+    border: none;
+    
+    
+}
+
+.qbutton{
+    text-align: left;
+    background-color: purple;
+    color: white;
+    
+}
+
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+   background-color: rgba(128, 0, 128, 0.52);
+   color: white;
+}
+
+li{
+   width: 200px; 
+   height: auto;
+   font-size: larger;
+   background-color: rgba(128, 0, 128, 0.192);
+}
+
+.wrapper{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+   }
+
+   #highscores-list{
+       margin-top: 50px;
+   }
+
+   .highbutton{
+       margin-top: 50px;
+   }
+
+p{
+    font-size: 20px;
+}
+
